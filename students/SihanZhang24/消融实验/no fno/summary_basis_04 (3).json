@@ -1,0 +1,27 @@
+{
+  "config": {
+    "ablation": "no_fno",
+    "run_mode": "quick",
+    "seed": 42,
+    "basis_index_zero_based": 3,
+    "basis_number_one_based": 4,
+    "train_size": 128,
+    "val_size": 32,
+    "test_size": 16,
+    "batch_size": 8,
+    "epochs": 2,
+    "learning_rate": 0.001,
+    "grad_weight": 0.1,
+    "device": "cuda"
+  },
+  "metrics": {
+    "mse": 0.17065712809562683,
+    "rmse": 0.4131066788320262,
+    "mae": 0.328531950712204,
+    "r2": 0.03965897113084793,
+    "relative_l2": 0.979942262172699,
+    "grad_mse": 0.3366570770740509,
+    "max_abs_error": 1.479114055633545,
+    "n_samples": 16
+  }
+}
