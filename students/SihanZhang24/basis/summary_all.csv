@@ -1,0 +1,5 @@
+experiment,description,mse_basis05,r2_basis05,mse_basis06,r2_basis06
+Full Model,Attention UNet + FNO + Gradient Loss,0.006149,0.9445,0.008489,0.8910
+No Attention,Remove Attention Gates,0.007905,0.9287,0.006634,0.9148
+No Gradient Loss,MSE only without gradient matching,0.008102,0.9269,0.007089,0.9090
+No FNO,Remove FNO preprocessing block,0.007432,0.9330,0.009663,0.8759
