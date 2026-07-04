@@ -1,0 +1,13 @@
+{
+  "config": {
+    "run_mode": "full",
+    "basis_index_zero_based": 4,
+    "basis_number_one_based": 5,
+    "ablation": "no_fno",
+    "description": "Attention U-Net without Fourier neural operator preprocessing block"
+  },
+  "metrics": {
+    "mse": 0.007431751815602183,
+    "r2": 0.9329535812139511
+  }
+}
