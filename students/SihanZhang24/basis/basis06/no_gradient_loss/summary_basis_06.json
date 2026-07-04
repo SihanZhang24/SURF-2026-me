@@ -1,0 +1,13 @@
+{
+  "config": {
+    "run_mode": "full",
+    "basis_index_zero_based": 5,
+    "basis_number_one_based": 6,
+    "ablation": "no_gradient_loss",
+    "description": "Full model architecture trained with MSE loss only (no gradient matching)"
+  },
+  "metrics": {
+    "mse": 0.007089134189300239,
+    "r2": 0.908969908952713
+  }
+}

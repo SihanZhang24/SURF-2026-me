@@ -1,0 +1,13 @@
+{
+  "config": {
+    "run_mode": "full",
+    "basis_index_zero_based": 5,
+    "basis_number_one_based": 6,
+    "ablation": "no_attention",
+    "description": "U-Net without attention gates in skip connections"
+  },
+  "metrics": {
+    "mse": 0.006634276593104005,
+    "r2": 0.9148114323616028
+  }
+}
